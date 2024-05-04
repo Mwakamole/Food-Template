@@ -6,13 +6,29 @@ ul{
     font-size: 30px;
     position: relative;
     top:0%;
+    padding: 5px;
     padding-bottom: -0.2%;
+
+}
+.menu_icon:hover{
+    background-color: rgb(199, 201, 201);
+    cursor: pointer        
+
 }
 .menu_items{
+    display: none;
     font-size: 25px;
     position: relative;
     margin-top: 5px;/*pushes the menu items below the menu icon*/
     margin-left: 0%;/*makes the menu items to start right at the beginning of the screen*/
     right: 3%;
-    
+    width: 33%;
+    height: 100%;
+    background-color: rgb(238, 242, 245);
+    padding-bottom: 100%;
+   
+}
+li:hover{
+    background-color: rgb(199, 201, 201);
+    cursor: pointer        
 }
