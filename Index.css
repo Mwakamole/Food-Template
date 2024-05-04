@@ -4,7 +4,15 @@ ul{
 }
 .menu_icon{
     font-size: 30px;
+    position: relative;
+    top:0%;
+    padding-bottom: -0.2%;
 }
 .menu_items{
-    font-size: 30px;
+    font-size: 25px;
+    position: relative;
+    margin-top: 5px;/*pushes the menu items below the menu icon*/
+    margin-left: 0%;/*makes the menu items to start right at the beginning of the screen*/
+    right: 3%;
+    
 }
