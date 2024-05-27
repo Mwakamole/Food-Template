@@ -19,7 +19,7 @@ ul{
 }
 #mail{
     position: absolute;
-    top: 5%;
+    top: 4.5%;
     left: 92%;
     transform: translateY(-75%);
     text-align: left;
@@ -28,13 +28,11 @@ ul{
     
 }
 .menu_icon{
-    font-size: 30px;
-    position: relative;
-    top:0%;
-    padding: 5px;
-    padding-bottom: -0.2%;
-    width: 30.5%;
-    display: block;
+    position: absolute;
+    top: 7.5%;
+    left: 2%;
+    transform: translateY(-50%);
+    font-size: x-large;
 }
 .menu_icon:hover{
     background-color: rgb(199, 201, 201);
