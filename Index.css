@@ -17,6 +17,16 @@ ul{
 #title:hover{
     cursor:auto; 
 }
+#mail{
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    transform: translateY(-75%);
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
 .menu_icon{
     font-size: 30px;
     position: relative;
