@@ -2,17 +2,33 @@ ul{
     list-style: none;
     font-size: large;
 }
+.nav_bar{
+    width: 33.3%;
+    height: 2px;
+}
+#title{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 43%;
+    position: relative;
+    padding-top:-10%;
+
+}
+#title:hover{
+    cursor:auto; 
+}
 .menu_icon{
     font-size: 30px;
     position: relative;
     top:0%;
     padding: 5px;
     padding-bottom: -0.2%;
-
+    width: 30.5%;
+    display: block;
 }
 .menu_icon:hover{
     background-color: rgb(199, 201, 201);
-    cursor: pointer        
+    cursor: pointer;            
 
 }
 .menu_items{
@@ -20,12 +36,12 @@ ul{
     font-size: 25px;
     position: relative;
     margin-top: 5px;/*pushes the menu items below the menu icon*/
-    margin-left: 0%;/*makes the menu items to start right at the beginning of the screen*/
+    margin-left: -6%;/*makes the menu items to start right at the beginning of the screen*/
     right: 3%;
     width: 33%;
-    height: 100%;
+    height: 300%;
     background-color: rgb(238, 242, 245);
-    padding-bottom: 100%;
+    padding-bottom: 130%;
    
 }
 li:hover{
